@@ -1,0 +1,96 @@
+.para{
+    background-color: red;
+    /* height: 100px; */
+    /* height: 100%; */
+    /* height: 100vh; */
+    /* width: 200px; */
+    /* width: 100%; */
+    /* width: 100vw; */
+    position: fixed;
+
+}
+.textColor > .color1 {
+    color: red;
+}
+.textColor > .color2{
+    color: gray;
+}
+.bg{
+    background-color: yellow;
+}
+.bgImage{
+    background-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.boxModel{
+    border: 10px solid rgb(0, 255, 76);
+    /* margin: 30px 100px 200px 50px; */
+    padding: 30px;
+}
+.textStyle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hoverClass{
+    padding: 20px;
+    background-color: rgb(165, 165, 165);
+    transition: 0.5s;
+    height: 200px;
+    width: 200px;
+}
+.hoverClass:hover{
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+.display{
+    background-color: rgb(132, 132, 255);
+    /* display: block; */
+    /* display: inline; */
+    height: 100px;
+    display: inline-block;
+    /* display: none; */
+}
+.positionPara{
+    /* position: static; */
+    /* position: absolute; */
+    /* margin-left: 100px; */
+    /* position: relative; */
+    /* position: fixed; */
+}
+.zIndex1{
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+
+}
+.zIndex2{
+    background-color: blue;
+    margin-left: 100px;
+}
+.image{
+    width: 200px;
+    float: left;
+}
+.textShadow{
+    font-size: 100px;
+    text-shadow: 10px 10px 10px red;
+}
+.boxShadow{
+    font-size: 30px;
+    background-color: gray;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    border-radius: 100px;
+    padding: 20px;
+}
+.animation{
+    padding: 20px;
+    transition: 1s;
+    margin: 20px;
+    border-radius: 10px;
+}
+.animation:hover{
+    background-color: black;
+    color: white;
+}
